@@ -27,7 +27,7 @@ The solution includes:
 
 ## 🧱 Architecture Diagram
 
-```mermaid
+<pre> ```mermaid flowchart TD A[📁 Input Dataset (CSV)] --> B[🧹 Data Preprocessing] B --> C1[📊 Model 1: Demand Score Calculation] C1 --> C2[⏰ Model 2: Time-Based Pricing Adjustment] C2 --> C3[📍 Model 3: Competition-Based Pricing (KDTree)] C3 --> D[💰 Final Price Recommendations] D --> E[📈 Interactive Visualizations (Bokeh)] ``` </pre>
 flowchart TD
     A[Raw Data (CSV)] --> B[Data Preprocessing]
     B --> C1[Model 1: Demand Score Calculation]
